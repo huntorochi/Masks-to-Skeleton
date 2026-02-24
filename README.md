@@ -10,7 +10,7 @@ Abstract: *Accurately reconstructing tree skeletons from multi-view images is ch
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@Article{liuHoGS,
+    <pre><code>@Article{liuM2S,
         AUTHOR = {Liu, Xinpeng and Xu, Kanyu and Shinoda, Risa and Santo, Hiroaki and Okura, Fumio},
         TITLE = {Masks-to-Skeleton: Multi-View Mask-Based Tree Skeleton Extraction with 3D Gaussian Splatting},
         JOURNAL = {Sensors},
