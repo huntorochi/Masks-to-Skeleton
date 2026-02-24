@@ -42,9 +42,6 @@ git clone https://github.com/huntorochi/Masks-to-Skeleton.git
 ## Overview
 This repository contains an **early-release** implementation of *Masks-to-Skeleton*, a multi-view, mask-guided tree skeleton extraction pipeline based on **3D Gaussian Splatting (3DGS)** and **MST-regularized graph optimization**.
 
-## News
-- **(Early Release)** This code is released quickly to provide an early baseline version. See **Notes / Limitations** below.
-
 ## Dataset
 
 ### Download
@@ -70,3 +67,14 @@ Most dependencies are common Python libraries used in vision / geometry pipeline
 - `tqdm`
 - `plyfile`
 - `gsplat` (for rasterization / 3DGS)
+
+## Notes / Limitations (Early Release)
+
+This repository is a quick release aimed at providing an early baseline for external users.
+
+Code may contain:
+- limited documentation
+- dataset-specific assumptions
+- minimal refactoring / cleanup
+
+We welcome issues and PRs, but please note that the repo's structure may change as we prepare a polished release.
