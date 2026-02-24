@@ -50,7 +50,23 @@ This repository contains an **early-release** implementation of *Masks-to-Skelet
 ### Download
 Please download the dataset from [**Google Drive**](https://drive.google.com/file/d/1ThWaL7e_z-xTZ6IFICSN9UIGXr9LmonM/view?usp=sharing). After downloading, place and unzip the dataset under:
 
-
+```
 Masks-to-Skeleton/
-├─ github_mdpi/
-│ ├─ dataset/
+└── github_mdpi/
+    └── dataset/
+        └── tree200
+```
+
+## Installation
+
+⚠️ **This is a fast-published early version.**  
+We did **not** prepare a curated `requirements.txt` yet. Please install dependencies manually.
+
+Most dependencies are common Python libraries used in vision / geometry pipelines, including (non-exhaustive):
+- `torch`, `torchvision`
+- `numpy`, `scipy`, `scikit-learn`
+- `opencv-python`
+- `open3d`
+- `tqdm`
+- `plyfile`
+- `gsplat` (for rasterization / 3DGS)
