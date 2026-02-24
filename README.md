@@ -1,7 +1,7 @@
 # Masks-to-Skeleton
 Masks-to-Skeleton: Multi-view Mask-Based Tree Skeleton Extraction with 3D Gaussian Splatting
 ## Xinpeng Liu<sup>1</sup>, Kanyu Xu<sup>1</sup>, Risa Shinoda<sup>1</sup>, Hiroaki Santo<sup>1</sup>, Fumio Okura<sup>1</sup>  <br> <sup>1</sup> The University of Osaka<br>
-[![Paper](https://www.mdpi.com/1424-8220/25/14/4354)]
+![Paper](https://www.mdpi.com/1424-8220/25/14/4354)
 
 ![Teaser image](assets/teaser.pdf)
 
