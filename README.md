@@ -3,7 +3,7 @@ Masks-to-Skeleton: Multi-view Mask-Based Tree Skeleton Extraction with 3D Gaussi
 ## Xinpeng Liu<sup>1</sup>, Kanyu Xu<sup>1</sup>, Risa Shinoda<sup>1</sup>, Hiroaki Santo<sup>1</sup>, Fumio Okura<sup>1</sup>  <br> <sup>1</sup> The University of Osaka<br>
 [Paper](https://www.mdpi.com/1424-8220/25/14/4354)
 
-![Teaser image](assets/teaser.pdf)
+![Teaser image](assets/sensors-25-04354-g001.png)
 
 Abstract: *Accurately reconstructing tree skeletons from multi-view images is challenging. While most existing works use skeletonization from 3D point clouds, thin branches with low-texture contrast often involve multi-view stereo (MVS) to produce noisy and fragmented point clouds, which break branch connectivity. Leveraging the recent development in accurate mask extraction from images, we introduce a mask-guided graph optimization framework that estimates a 3D skeleton directly from multi-view segmentation masks, bypassing the reliance on point cloud quality. In our method, a skeleton is modeled as a graph whose nodes store positions and radii while its adjacency matrix encodes branch connectivity. We use 3D Gaussian splatting (3DGS) to render silhouettes of the graph and directly optimize the nodes and the adjacency matrix to fit given multi-view silhouettes in a differentiable manner. Furthermore, we use a minimum spanning tree (MST) algorithm during the optimization loop to regularize the graph to a tree structure. Experiments on synthetic and real-world plants show consistent improvements in completeness and structural accuracy over existing point-cloud-based and heuristic baseline methods.*
 
